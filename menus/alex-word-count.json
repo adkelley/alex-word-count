@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle alex-word-count",
+        "command": "alex-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "alex-word-count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "alex-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
